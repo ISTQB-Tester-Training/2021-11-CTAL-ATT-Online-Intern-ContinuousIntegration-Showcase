@@ -6,7 +6,6 @@ pipeline {
             steps {
 
                 git 'https://github.com/ISTQB-Tester-Training/2021-11-CTAL-ATT-Online-Intern-ContinuousIntegration-Showcase.git'
-.git'
 
                 sh "mvn compile"
             }
