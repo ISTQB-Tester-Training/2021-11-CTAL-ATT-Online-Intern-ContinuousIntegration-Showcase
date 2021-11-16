@@ -5,7 +5,8 @@ pipeline {
         stage('Compile') {
             steps {
 
-                git 'https://github.com/ISTQB-Tester-Training/CI-CD-Showcase-Template.git'
+                git 'https://github.com/ISTQB-Tester-Training/2021-11-CTAL-ATT-Online-Intern-ContinuousIntegration-Showcase.git'
+.git'
 
                 sh "mvn compile"
             }
